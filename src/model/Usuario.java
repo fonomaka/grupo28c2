@@ -2,14 +2,23 @@ package model;
 
 public class Usuario {
     private String nombre;
-    private String estado;
+    private char estado;
 
-    public char getEstado(){
+    public char getEstado() {
         return estado;
     }
 
-    public String getNombre(){
+    public String getNombre() {
         return nombre;
     }
-    public void setEstado(char)
+
+    public void setEstado(char estado) {
+        this.estado = estado;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    } 
+    
 }
+
